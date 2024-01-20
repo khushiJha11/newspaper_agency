@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="500.0" minWidth="500.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkghawkersboard.hawkersboardviewcontroller">
+   <children>
+      <ImageView fitHeight="84.0" fitWidth="115.0" layoutX="366.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="157.0" layoutY="19.0" prefHeight="17.0" prefWidth="236.0" text="HAWKER'S BOARD" textFill="#3a08f2">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="246.0" text="MOBILE NO." />
+      <Label layoutX="48.0" layoutY="182.0" text="ADDRESS" />
+      <Label layoutX="252.0" layoutY="312.0" text="DATE OF JOINING" />
+      <Label layoutX="257.0" layoutY="246.0" text="ADHAAR CARD NO." />
+      <Label layoutX="254.0" layoutY="376.0" text="SELECTED AREAS" />
+      <Label layoutX="47.0" layoutY="108.0" text="HAWKER NAME" />
+      <ImageView fitHeight="77.0" fitWidth="94.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@vats%20agency.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="46.0" layoutY="376.0" text="AREAS AVAILABLE" />
+      <Separator layoutY="59.0" prefHeight="17.0" prefWidth="500.0" />
+      <Label layoutX="46.0" layoutY="312.0" text="SALARY" />
+      <ComboBox fx:id="comboidname" editable="true" layoutX="47.0" layoutY="137.0" prefWidth="150.0" />
+      <TextField fx:id="addressid" layoutX="48.0" layoutY="207.0" prefHeight="25.0" prefWidth="430.0" />
+      <TextField fx:id="acardid" layoutX="252.0" layoutY="274.0" prefHeight="25.0" prefWidth="228.0" />
+      <TextField fx:id="mobileid" layoutX="48.0" layoutY="274.0" />
+      <TextField fx:id="areaid" layoutX="252.0" layoutY="398.0" prefHeight="25.0" prefWidth="228.0" text="sss" />
+      <TextField fx:id="salaryid" layoutX="48.0" layoutY="337.0" />
+      <Button layoutX="239.0" layoutY="137.0" mnemonicParsing="false" onAction="#dosearch" text="SEARCH" />
+      <Button layoutX="157.0" layoutY="465.0" mnemonicParsing="false" onAction="#domodify" prefHeight="25.0" prefWidth="72.0" text="MODIFY" />
+      <Button layoutX="268.0" layoutY="465.0" mnemonicParsing="false" onAction="#dofired" prefHeight="25.0" prefWidth="85.0" text="FIRED" />
+      <Button layoutX="388.0" layoutY="465.0" mnemonicParsing="false" onAction="#donew" prefHeight="25.0" prefWidth="72.0" text="NEW" />
+      <Button layoutX="45.0" layoutY="465.0" mnemonicParsing="false" onAction="#dohierd" prefHeight="25.0" prefWidth="78.0" text="HIRED" />
+      <Button layoutX="366.0" layoutY="170.0" mnemonicParsing="false" onAction="#dochoosepic" text="CHOOSE PIC" />
+      <DatePicker fx:id="dateid" layoutX="250.0" layoutY="337.0" prefHeight="25.0" prefWidth="228.0" />
+      <Separator layoutX="2.0" layoutY="435.0" prefHeight="17.0" prefWidth="500.0" />
+      <ComboBox fx:id="comboidarea" editable="true" layoutX="42.0" layoutY="398.0" onAction="#doarea" onMouseClicked="#doselect" prefWidth="150.0" />
+      <TextField fx:id="imageid" layoutX="118.0" layoutY="170.0" prefHeight="25.0" prefWidth="243.0" />
+   </children>
+</AnchorPane>

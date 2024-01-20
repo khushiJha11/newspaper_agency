@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="500.0" minWidth="500.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hawkershowtable.hawkertableviewcontroller">
+   <children>
+      <Button layoutX="155.0" layoutY="77.0" mnemonicParsing="false" onAction="#doshowall" prefHeight="24.0" prefWidth="188.0" text="SHOW ALL RECORDS">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Label layoutX="128.0" layoutY="16.0" prefHeight="40.0" prefWidth="279.0" text=" HAWKERS' TABLE" textFill="#750bff">
+         <font>
+            <Font size="28.0" />
+         </font></Label>
+      <ImageView fitHeight="67.0" fitWidth="75.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@vats%20agency.png" />
+         </image>
+      </ImageView>
+      <Separator layoutX="4.0" layoutY="64.0" prefHeight="4.0" prefWidth="490.0" />
+      <TableView fx:id="tblview" layoutX="34.0" layoutY="122.0" prefHeight="352.0" prefWidth="431.0" />
+   </children>
+</AnchorPane>

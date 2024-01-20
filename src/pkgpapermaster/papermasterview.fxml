@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="500.0" minWidth="500.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkgpapermaster.papermasterviewcontroller">
+   <children>
+      <Label layoutX="134.0" layoutY="14.0" prefHeight="17.0" prefWidth="234.0" text="PAPER MASTER" textAlignment="CENTER" textFill="#2b08f5">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="113.0" text="PAPER" textFill="#f20b0b">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="206.0" text="PRICE" textFill="#f80000">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="comboid" editable="true" layoutX="140.0" layoutY="119.0" prefWidth="150.0" />
+      <TextField fx:id="txtprice" layoutX="140.0" layoutY="209.0" />
+      <Button layoutX="347.0" layoutY="119.0" mnemonicParsing="false" onAction="#dosearch" text="SEARCH" textFill="#6700f8">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="45.0" layoutY="405.0" mnemonicParsing="false" onAction="#dosave" prefHeight="30.0" prefWidth="63.0" text="SAVE" textFill="#6f09f5">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="dodelete" layoutX="274.0" layoutY="405.0" mnemonicParsing="false" onAction="#dodelete" prefHeight="30.0" prefWidth="73.0" text="DELETE" textFill="#700cfc">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="152.0" layoutY="405.0" mnemonicParsing="false" onAction="#doupdate" prefHeight="30.0" prefWidth="73.0" text="UPDATE" textFill="#7e08fc">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <CheckBox layoutX="-142.0" layoutY="78.0" mnemonicParsing="false" text="CheckBox" />
+      <ImageView fitHeight="67.0" fitWidth="82.0" layoutX="-7.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@vats%20agency.png" />
+         </image>
+      </ImageView>
+      <Separator layoutX="16.0" layoutY="58.0" prefHeight="5.0" prefWidth="470.0" />
+      <Button layoutX="390.0" layoutY="405.0" mnemonicParsing="false" onAction="#donew" prefHeight="30.0" prefWidth="65.0" text="NEW" textFill="#6700f8">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="168.0" fitWidth="174.0" layoutX="316.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@papermaster.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

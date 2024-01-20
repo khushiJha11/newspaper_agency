@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="500.0" minWidth="500.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkgareamaster.areamasterviewcontroller">
+   <children>
+      <Button layoutX="94.0" layoutY="401.0" mnemonicParsing="false" onAction="#dosave" prefHeight="40.0" prefWidth="100.0" text="SAVE">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+      <Button layoutX="303.0" layoutY="401.0" mnemonicParsing="false" onAction="#doremove" text="REMOVE">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+      <Label layoutX="131.0" layoutY="14.0" prefHeight="49.0" prefWidth="320.0" text="    AREA MASTER" textFill="#3800f2">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="99.0" prefHeight="59.0" prefWidth="143.0" text="AREA" textFill="#f20c0c">
+         <font>
+            <Font size="30.0" />
+         </font></Label>
+      <ComboBox fx:id="comboid" editable="true" layoutX="47.0" layoutY="158.0" prefWidth="150.0" />
+      <ImageView fitHeight="88.0" fitWidth="93.0" layoutX="-6.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@vats%20agency.png" />
+         </image>
+      </ImageView>
+      <Separator layoutX="94.0" layoutY="59.0" prefHeight="3.0" prefWidth="353.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="256.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@area%20pic.jpg" />
+         </image>
+      </ImageView>
+      <Separator layoutX="18.0" layoutY="384.0" prefHeight="3.0" prefWidth="462.0" />
+   </children>
+</AnchorPane>

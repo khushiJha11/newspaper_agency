@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="500.0" minWidth="500.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkgadmindashboard.admindashboardviewcontroller">
+   <children>
+      <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@vats%20agency.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="109.0" layoutY="15.0" prefHeight="30.0" prefWidth="306.0" text="ADMIN DASHBOARD" textFill="#2408ff">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Separator layoutY="58.0" prefHeight="4.0" prefWidth="501.0" />
+      <ImageView fitHeight="105.0" fitWidth="73.0" layoutX="367.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@hawker%20master.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="109.0" layoutX="20.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@paper%20master.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="284.0" layoutY="379.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bill%20history.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="60.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@customer%20board.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="148.0" layoutY="379.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@show%20hawker.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="20.0" layoutY="379.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@collect%20bill.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="98.0" layoutX="391.0" layoutY="393.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@about%20us.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="140.0" fitWidth="133.0" layoutX="174.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@area%20m.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="335.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bill.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="203.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@enroll.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="284.0" layoutY="452.0" mnemonicParsing="false" onAction="#dobillhistory" text="BILL HISTORY" />
+      <Button layoutX="404.0" layoutY="454.0" mnemonicParsing="false" text="ABOUT US" />
+      <Button layoutX="140.0" layoutY="452.0" mnemonicParsing="false" onAction="#dotableview" text="SHOW HAWKERS" />
+      <Button layoutX="20.0" layoutY="452.0" mnemonicParsing="false" onAction="#dobillcollector" text="COLLECT BILL" />
+      <Button layoutX="328.0" layoutY="315.0" mnemonicParsing="false" onAction="#dobillcreator" text="GENERATE BILL" />
+      <Button layoutX="185.0" layoutY="315.0" mnemonicParsing="false" onAction="#docustomercontrolpanel" prefHeight="25.0" prefWidth="126.0" text="ENROLL CUSTOMER" />
+      <Button layoutX="35.0" layoutY="315.0" mnemonicParsing="false" onAction="#docustomergoogler" text="CUSTOMER BOARD" />
+      <Button layoutX="347.0" layoutY="167.0" mnemonicParsing="false" onAction="#dohawker" text="HAWKER MASTER" />
+      <Button layoutX="194.0" layoutY="167.0" mnemonicParsing="false" onAction="#doareamaster" text="AREA MASTER" />
+      <Button layoutX="18.0" layoutY="167.0" mnemonicParsing="false" onAction="#dopaperhistory" prefHeight="15.0" prefWidth="109.0" text="PAPER MASTER" />
+   </children>
+</AnchorPane>
